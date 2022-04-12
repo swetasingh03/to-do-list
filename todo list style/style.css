@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+width:100%;
+height:100vh;
+background: linear-gradient(150deg,rgb(230, 55, 215),rgb(42, 216, 187));
+}
+html body .box{
+    width:40%;
+    height:60%;
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius:20px;
+    border:2px solid rgb(0, 200, 250);
+    box-shadow:0px 0px 10px mediumspringgreen;
+     overflow: scroll;
+}
+body .container{
+    margin:20px 30px;
+   
+}
+.input{
+    margin-top:20px
+}
+#inputfield{
+    width:80%;
+    height:40px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+}
+#todobutton{
+    width:45px;
+    height:40px;
+    font-size: 40px;
+    color:white;
+    vertical-align: middle;
+    background-color: rgb(226, 28, 127);
+    outline: none;
+    border:transparent;
+    cursor: pointer;
+}
+#todobutton:hover{
+    background-color:rgb(220, 20, 220);
+    border:transparent;
+}
+.items p{
+    width:90%;
+    height:40px;
+    outline: none; 
+    background-color:purple;
+    margin:10px 0px;
+    padding: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraph-styling{
+    width:90%;
+    height:40px;
+    outline: none; 
+    background-color:purple;
+    margin:10px 0px;
+    padding: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.items button{
+    width:30px;
+    height:40px;
+    font-size: 35px;
+    color:white;
+    vertical-align: middle;
+    background-color:purple;
+    outline: none;
+    border:transparent;
+    cursor: pointer;
+
+}
+.items p:hover{
+    text-decoration:line-through;
+    color:white;
+    cursor: pointer;
+}
+.footer{
+    margin:0px 30px;
+}
+.footer span{
+    font-size: 1.3rem;
+}
+#clear{
+    width:120px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 10%;
+    background-color: purple;
+    border:transparent;
+    color: white;
+}
